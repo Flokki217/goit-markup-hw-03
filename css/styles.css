@@ -1,0 +1,236 @@
+:root {
+  --primary-text-color: #434455;
+  --tittle-color: #2e2f42;
+  --decor-color: #404bbf;
+  --main-color: #4d5ae5;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.logo .logo-studio {
+  color: #2e2f42;
+}
+/* background{color: #F4F4FD} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Header */
+.nav .link:hover,
+.nav .link:focus {
+  color: #404bbf;
+}
+
+.nav .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav {
+  list-style: none;
+}
+.feedback {
+  font-style: normal;
+}
+.feedback-item .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+}
+.feedback-item {
+  list-style: none;
+}
+.feedback .link:hover,
+.feedback .link:focus {
+  color: #404bbf;
+}
+/* Main */
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  line-height: 1.07;
+}
+.hero .pointer {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.hero .pointer:hover,
+.hero .pointer:focus {
+  color: #404bbf;
+  background-color: #f4f4fd;
+}
+/* Skills */
+
+.skills-main-tittle {
+  visibility: hidden;
+}
+.secondary-tittle {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  line-height: 1.07;
+}
+.skills-section .secondary-tittle {
+  line-height: 1.2;
+}
+.skills-list {
+  list-style: none;
+}
+.skill-item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+/* Examples */
+.examples-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  line-height: 1.11;
+}
+.examples {
+  list-style: none;
+}
+/* Team */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.specialty {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+.team-item .secondary-tittle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-item {
+  list-style: none;
+}
+.team-text {
+  background-color: #ffffff;
+  width: 264px;
+}
+
+/* Footer */
+.footer-section {
+  background-color: #2e2f42;
+}
+.footer-item {
+  color: #e7e9fc;
+}
+
+.footer-section .logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.footer-section .footer-studio {
+  color: #f4f4fd;
+}
+/* -------------------Portfolio------------------------------------- */
+.portfolio-tittle {
+  visibility: hidden;
+}
+.portfolio-buttons .item {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.portfolio-buttons .item:hover,
+.portfolio-buttons .item:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-item {
+  list-style: none;
+}
+.portfolio-buttons {
+  list-style: none;
+}
+.works {
+  text-decoration: none;
+  list-style: none;
+}
+.work-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio .secondary-tittle {
+  line-height: 1.2;
+}
