@@ -1,9 +1,3 @@
-:root {
-  --primary-text-color: #434455;
-  --tittle-color: #2e2f42;
-  --decor-color: #404bbf;
-  --main-color: #4d5ae5;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -24,10 +18,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
-
+.list {
+  list-style: none;
+}
 /* Header */
 .nav .link:hover,
 .nav .link:focus {
@@ -43,14 +38,11 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.nav {
-  list-style: none;
-}
+
 .feedback {
   font-style: normal;
 }
 .feedback-item .link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -72,8 +64,6 @@ body {
   background-color: #2e2f42;
 }
 .hero-tittle {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -83,7 +73,6 @@ body {
 .hero .pointer {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -123,7 +112,6 @@ body {
 }
 /* Examples */
 .examples-tittle {
-  font-weight: 700;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -131,16 +119,13 @@ body {
   color: #2e2f42;
   line-height: 1.11;
 }
-.examples {
-  list-style: none;
-}
+
 /* Team */
 .team {
   background-color: #f4f4fd;
 }
 
 .team-tittle {
-  font-weight: 700;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -215,15 +200,9 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.portfolio-item {
-  list-style: none;
-}
-.portfolio-buttons {
-  list-style: none;
-}
+
 .works {
   text-decoration: none;
-  list-style: none;
 }
 .work-item {
   font-size: 16px;
