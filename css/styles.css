@@ -16,6 +16,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--accent-color);
+
   padding-bottom: 24px;
   padding-top: 24px;
 }
@@ -128,15 +129,18 @@ body {
 /* Hero */
 .hero {
   background-color: var(--tittle-color);
-  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-tittle {
   font-size: 56px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
   line-height: 1.07;
   margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero .pointer {
   font-family: 'Roboto', sans-serif;
@@ -144,16 +148,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--accent-color);
   min-width: 169px;
   padding: 16px 32px;
   border-radius: 4px;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  margin: 0 auto;
 }
 .hero .pointer:hover,
 .hero .pointer:focus {
@@ -185,13 +187,12 @@ body {
 .skills-list {
   list-style: none;
   display: flex;
+  gap: 24px;
 }
 .skills-list .item {
   width: 264px;
 }
-.skills-list .item + .item {
-  padding-left: 24px;
-}
+
 .skill-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -213,9 +214,10 @@ body {
 }
 .examples-list {
   display: flex;
+  gap: 24px;
 }
-.examples-list .list + .list {
-  padding-left: 24px;
+.examples-list li {
+  width: calc((100% - 48px) / 3);
 }
 /* Team */
 .team {
@@ -326,6 +328,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 48px 24px;
 }
 .portfilio-list,
 img {
@@ -335,16 +338,10 @@ img {
 .work-text {
   margin-left: 16px;
 }
-.portfolio-list .item:nth-child(3n + 1) {
-  margin-left: 0px;
+.portfolio-list li {
+  width: calc((100% - 48px) / 3);
 }
-.portfolio-list .item:nth-child(n + 7) {
-  margin-bottom: 0px;
-}
-.portfolio-list .item {
-  margin-left: 24px;
-  margin-bottom: 48px;
-}
+
 .portfolio .works {
   text-decoration: none;
 }
