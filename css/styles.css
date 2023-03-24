@@ -240,7 +240,7 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--tittle-color);
-  margin-bottom: 120px;
+  margin-bottom: 72px;
 }
 .specialty {
   font-size: 16px;
@@ -341,6 +341,7 @@ body {
 
 .portfolio-list .item {
   width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio .works {
